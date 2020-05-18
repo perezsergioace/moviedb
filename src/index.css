@@ -93,3 +93,72 @@ section {
 	background-color: #fff;
 	color: #223343;
 }
+
+.popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: #445565;
+
+	overflow-y: scroll;
+}
+
+.popup .content {
+	display: block;
+	width: 100%;
+	max-width: 96rem;
+	margin: 0 auto;
+	padding: 25px;
+
+	color: #fff;
+}
+
+.popup .content h2 {
+	font-size: 2.8rem;
+	font-weight: 600;
+}
+
+.popup .content h2 span {
+	font-weight: 300;
+	font-size: 2rem;
+}
+
+.popup .content .rating {
+	margin-bottom: 3rem;
+}
+
+.popup .content .plot {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0rem -1.5rem 3rem;
+}
+
+.popup .content .plot img {
+	flex: 1 1 50%;
+	max-width: 30rem;
+	padding: 0rem 1.5rem;
+}
+
+.popup .content .plot p {
+	flex: 1 1 50%;
+	padding: 1.5rem;
+}
+
+.popup .content .close {
+	display: inline-block;
+	padding: 1.5rem 3rem;
+	font-size: 18px;
+	font-weight: 700;
+	background-color: #4484c4;
+	color: #fff;
+	border-radius: 0.8rem;
+	appearance: none;
+	cursor: pointer;
+	transition: 0.4s ease-out;
+}
+
+.popup .content .close:hover {
+	background: #223343;
+}
