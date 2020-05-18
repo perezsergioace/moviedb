@@ -8,9 +8,9 @@ function App() {
 			<header>
 				<h1>Movie Database</h1>
 			</header>
-      <main>
-        <Search />
-      </main>
+			<main>
+				<Search />
+			</main>
 		</div>
 	)
 }
