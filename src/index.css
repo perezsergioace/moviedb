@@ -58,3 +58,38 @@ section {
 .searchbox:focus {
 	box-shadow: 0rem 0rem 0.8rem 0.3rem #4484c4;
 }
+
+.results {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -1.5rem;
+}
+
+.results .result {
+	width: 33.333%;
+	min-width: 25rem;
+	padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+}
+
+.results .result img {
+	display: block;
+	width: 100%;
+}
+
+.results .result h3 {
+	color: #fff;
+	font-size: 2rem;
+	font-weight: 600;
+	padding: 1rem;
+	background-color: #445565;
+	flex: 1 1 100%;
+	transition: 0.4s ease-out;
+}
+
+.results .result:hover h3 {
+	background-color: #fff;
+	color: #223343;
+}
